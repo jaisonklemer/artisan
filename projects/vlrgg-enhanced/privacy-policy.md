@@ -1,9 +1,7 @@
 ---
-title: Example Extension Privacy Policy
+title: Privacy Policy for VLR.gg Enhanced
 permalink: /vlrgg-enhanced/privacy-policy
 ---
-
-# Privacy Policy for VLR.gg Enhanced
 
 Last updated: May 21, 2026
 
