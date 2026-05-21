@@ -2,3 +2,4 @@ title: Project Policies
 description: Terms and Privacy pages for my projects
 theme: minima
 markdown: kramdown
+baseurl: "/artisan"
