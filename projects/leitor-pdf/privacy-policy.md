@@ -5,7 +5,7 @@ title: Política de privacidade — Leitor PDF
 permalink: /leitor-pdf/privacy-policy
 ---
 
-Última atualização: 2 de novembro de 2026.
+Última atualização: 6 de novembro de 2026.
 
 ## 1. Aplicativo e contato
 
@@ -15,52 +15,48 @@ Para dúvidas sobre privacidade ou solicitações relacionadas a dados, escreva 
 
 ## 2. Documentos e processamento no aparelho
 
-O aplicativo utiliza os PDFs que você abre para exibir páginas, extrair texto disponível para seleção e cópia, adicionar marcações, comentários, desenhos e assinaturas visuais e salvar cópias com alterações. Se você escolher uma imagem para assinatura, ela será lida para exibição e incorporada ao PDF ao posicioná-la. Uma assinatura visual não equivale a uma assinatura digital com certificado.
+Você escolhe cada PDF que deseja abrir usando o seletor de documentos do Android. O aplicativo lê o documento selecionado para exibir suas páginas, extrair texto disponível para seleção e cópia, adicionar marcações, comentários, desenhos e assinaturas visuais e, quando você solicita, criar uma cópia com as alterações. A seleção e cópia de uma imagem para assinatura também são iniciadas por você pelo seletor do Android. Uma assinatura visual não equivale a uma assinatura digital com certificado.
 
-No fluxo normal de leitura e edição, o aplicativo copia o documento para uma sessão em seu armazenamento privado. Ao editar, pode criar e preservar um rascunho para continuar o trabalho. Documentos e imagens podem conter dados pessoais seus ou de outras pessoas.
+Ao abrir um PDF, o aplicativo copia o documento selecionado para uma sessão no armazenamento privado do aplicativo. Alterações podem ser mantidas como rascunho local para você continuar o trabalho. O fluxo de edição atua sobre essa cópia de trabalho; a exportação cria uma cópia em um destino escolhido por você. Documentos e imagens podem conter dados pessoais seus ou de outras pessoas.
 
-Também são utilizados localmente:
+O aplicativo também mantém localmente:
 
-- Nome, referência de acesso, número de páginas e horário de acesso para apresentar até dez documentos recentes e tentar reabri-los.
-- Preferências, como tema, tela ligada, lembrança da última página e estado dos avisos de acesso a arquivos.
-- Posição de leitura associada ao documento, quando essa opção está ativa, e referência da última cópia exportada.
-- Texto e imagens das páginas, imagem de assinatura e estados de edição em memória para renderizar e desfazer ou refazer alterações.
+- Nome, URI/referência de acesso, número de páginas e horário de acesso dos até dez PDFs escolhidos mais recentemente, para exibir a lista de recentes e tentar reabri-los. A reabertura depende de o acesso ao item continuar disponível.
+- Preferências do aplicativo, como tema, manter a tela ligada durante a leitura e lembrar a última página, além do estado de avisos exibidos.
+- Posição de leitura associada ao documento, quando a opção de lembrar a última página está ativa, e a referência da última cópia exportada.
+- Conteúdo temporário necessário para renderizar páginas e editar o documento, incluindo texto/imagens da página e estados de anotação em memória.
 
-## 3. Permissões e biblioteca de PDFs
+## 3. Seleção de arquivos e acesso
 
-Você pode abrir PDFs e selecionar imagens pelo seletor de documentos do Android. O aplicativo tenta conservar as autorizações de acesso aos itens escolhidos quando o Android e o provedor permitirem.
+O aplicativo não faz busca automática, varredura do armazenamento ou indexação de PDFs. Para abrir um documento, você escolhe individualmente um arquivo no seletor de documentos do Android. Para selecionar uma imagem de assinatura ou escolher o local de uma cópia exportada, o aplicativo também usa o seletor correspondente do sistema.
 
-A biblioteca consulta PDFs indexados no armazenamento compartilhado. Ela utiliza nomes, referências de acesso, tamanhos e datas de modificação para apresentar até 500 candidatos PDF, ordenados pela data de modificação. A identificação por tipo ou extensão não garante que todo candidato seja um PDF válido. A biblioteca não é uma varredura completa do aparelho e não inclui, por esse mecanismo, documentos em nuvem, áreas privadas de outros aplicativos ou todos os arquivos não indexados.
-
-No Android 11 e posteriores, a biblioteca implementada depende da autorização especial de acesso a todos os arquivos. Essa autorização pode permitir tecnicamente leitura e escrita mais amplas do que a seleção de um único documento. A descoberta na biblioteca consulta o índice para leitura; a edição normal utiliza cópias privadas. Em versões antigas compatíveis, a biblioteca utiliza a permissão de leitura do armazenamento. No Android 10, o aplicativo orienta o uso do seletor em vez da busca ampla.
-
-Você pode recusar ou revogar o acesso amplo nas configurações do Android e continuar abrindo documentos específicos pelo seletor. Revogar uma permissão pode impedir a reabertura de itens que dependam dela, mas não deve ser entendido como exclusão dos arquivos ou das cópias de trabalho já existentes.
+Quando o Android e o provedor do arquivo permitem, o aplicativo tenta conservar a autorização de leitura do item escolhido para permitir reabertura posterior. Essa autorização é limitada ao item selecionado; o acesso pode deixar de funcionar se o provedor ou o sistema o revogar ou se o item não estiver mais disponível. Remover um item da lista de recentes remove o registro local e tenta liberar a autorização persistente correspondente; não apaga o arquivo original.
 
 ## 4. Transferências e serviços externos
 
-A leitura e a edição descritas nesta política são realizadas no dispositivo. No código-fonte consultado, não foram identificados conta do aplicativo, publicidade, analytics ou componente próprio de envio automático de documentos. Essa constatação é baseada na revisão do código-fonte, não em uma verificação completa do artefato de distribuição, de todas as dependências resolvidas ou de seu comportamento em execução. O processamento por bibliotecas incorporadas não significa, por si só, envio dos PDFs aos autores dessas bibliotecas.
+A leitura e a edição descritas nesta política são realizadas no dispositivo. Na configuração e no código-fonte consultados para esta versão, não foram identificados conta do aplicativo, publicidade, analytics ou componente próprio de envio automático de documentos. Essa constatação se limita à revisão do código-fonte e da configuração disponíveis; não é uma auditoria independente de todo artefato distribuído, dependência ou comportamento em execução. O uso de bibliotecas incorporadas, por si só, não permite concluir que os PDFs sejam enviados a seus autores.
 
-Quando você copia texto, o trecho selecionado é colocado na área de transferência do Android. Seu tratamento pelo sistema e por outros aplicativos depende das configurações e permissões deles.
+Quando você copia texto, o trecho selecionado é colocado na área de transferência do Android. O tratamento posterior pelo sistema e por outros aplicativos depende das configurações e permissões deles.
 
-Ao exportar ou compartilhar um PDF, você escolhe o destino ou aplicativo que receberá o documento. Um provedor de armazenamento em nuvem, e-mail ou outro serviço escolhido pode transmitir e processar o conteúdo conforme suas próprias práticas. MobileCineApps não controla o uso ou a retenção realizados pelo destinatário escolhido.
+Ao exportar ou compartilhar uma cópia de PDF, você escolhe o destino ou aplicativo que a receberá. Um provedor de armazenamento em nuvem, serviço de e-mail ou outro destinatário escolhido pode transmitir e processar o conteúdo conforme suas próprias práticas. MobileCineApps não controla o uso ou a retenção realizados pelo destinatário escolhido.
 
 Se você entrar em contato por e-mail, sua mensagem e os dados que incluir serão tratados para responder à solicitação. Não envie PDFs pessoais para obter suporte quando uma descrição sem o documento for suficiente. O serviço de e-mail utilizado também está sujeito às práticas de seu provedor.
 
 ## 5. Retenção e exclusão
 
-As cópias de trabalho e os rascunhos ficam no armazenamento privado do aplicativo. Fechar o documento ou voltar à tela inicial pode preservar o rascunho. Não há prazo automático de expiração em dias implementado para essas sessões.
+As cópias de trabalho e os rascunhos ficam no armazenamento privado do aplicativo. Fechar o documento ou voltar à tela inicial pode preservar o rascunho para retomada. Não há prazo automático de expiração em dias implementado para essas sessões.
 
-O descarte de uma sessão solicita a exclusão de seu diretório de trabalho. Remover um documento dos recentes remove esse registro e tenta liberar sua autorização persistente de leitura; não apaga o documento original e não equivale a limpar todas as sessões, posições de leitura, referências de exportação, preferências ou autorizações de imagens.
+Descartar uma sessão solicita a exclusão de seu diretório de trabalho privado. Remover um PDF dos recentes remove o respectivo registro e tenta liberar a autorização persistente de leitura; essa ação não apaga o documento original e não equivale a limpar todas as sessões, posições de leitura, preferências, referências de exportação ou autorizações de imagens.
 
-Você pode usar os controles de armazenamento do Android para limpar os dados locais do aplicativo. A desinstalação normalmente remove seu armazenamento privado. O comportamento de backup ou transferência entre aparelhos pode depender do sistema e do fabricante; a configuração fonte do aplicativo desabilita backup automático, mas não há garantia universal contra toda forma de transferência do sistema.
+Você pode usar os controles de armazenamento do Android para limpar os dados locais do aplicativo. A desinstalação normalmente remove o armazenamento privado do aplicativo. O comportamento de backup ou transferência entre aparelhos pode depender do sistema e do fabricante; a configuração fonte do aplicativo desabilita backup automático, mas não há garantia universal contra toda forma de transferência pelo sistema.
 
-Cópias exportadas para pastas, provedores ou outros aplicativos não são apagadas por limpar os dados ou desinstalar o Leitor PDF; devem ser gerenciadas nos respectivos destinos. A exclusão lógica não garante apagamento físico irrecuperável da mídia.
+Cópias exportadas para pastas, provedores ou outros aplicativos não são apagadas ao limpar os dados ou desinstalar o Leitor PDF; elas devem ser gerenciadas nos respectivos destinos. A exclusão lógica não garante apagamento físico irrecuperável da mídia.
 
 Mensagens de suporte não são removidas ao limpar os dados ou desinstalar o aplicativo. Para solicitar sua exclusão ou esclarecer retenção relacionada ao atendimento, use o contato acima. Esta política não estabelece prazo fixo de retenção para mensagens de e-mail.
 
 ## 6. Proteção dos dados
 
-O aplicativo usa armazenamento privado do Android para sessões de trabalho e concede acesso ao documento ao aplicativo escolhido para compartilhamento. A proteção também depende do sistema Android, do bloqueio do aparelho e dos serviços que você selecionar. Não há promessa de criptografia própria dos PDFs, segurança absoluta ou controle sobre documentos entregues a terceiros.
+O aplicativo usa o armazenamento privado do Android para as sessões de trabalho e concede acesso à cópia ao aplicativo escolhido para compartilhamento. A proteção também depende do sistema Android, do bloqueio do aparelho e dos serviços que você selecionar. Não há promessa de criptografia própria dos PDFs, segurança absoluta ou controle sobre documentos entregues a terceiros.
 
 ## 7. Acesso a esta página
 
